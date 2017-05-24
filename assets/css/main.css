@@ -17,7 +17,10 @@ body{
 /*menu section*/
 .menu{
 	background-color: #E54E79;
+	width: 100%;
 	padding: 30px;
+	position: fixed;
+	z-index: 200;
 }
 .menu-title a, .menu-list li a, .list-style a{
 	color: whitesmoke;
@@ -135,6 +138,7 @@ body{
 }
 .fa-car{
 	color: #75726C;
+	font-size: 30px;
 }
 
 #play{
@@ -151,15 +155,29 @@ body{
 /*footer*/
 .footer{
 	background-color: #75726C;
-	color: whitesmoke;
 	margin: 0;
 }
-
 .footer-title h2{
 	margin: 0;
+	text-align: center;
+}
+.footer-social{
+	text-align: center;	
+}
+.footer-list{
+	padding: 0;
+	text-align: center;
+}
+.footer-list li{
+	display: inline;
+}
+.footer-list li a i{
+	font-size: 40px;
+	padding: 0 20px;
 }
 .lyft-footer{
 	background-color: #6E6B65;
+
 }
 
 /**/
@@ -167,6 +185,15 @@ body{
 	background-color: #EDE9E2;
 	border: none;
 	border-bottom: 1px solid #75726C;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.white{
+	color: whitesmoke;
 }
 .light-gray{
 	color: #EDE9E2;
